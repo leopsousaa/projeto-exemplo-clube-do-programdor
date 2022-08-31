@@ -59,6 +59,11 @@ Object.assign(Outlined, {
   args: { variant: 'outlined' },
 });
 
+export const Danger = Template.bind({});
+Object.assign(Danger, {
+  args: { variant: 'danger' },
+});
+
 export const Disabled = Template.bind({});
 Object.assign(Disabled, {
   args: { variant: 'disabled' },
