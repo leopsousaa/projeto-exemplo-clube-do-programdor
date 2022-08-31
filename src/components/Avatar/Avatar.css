@@ -1,0 +1,16 @@
+img {
+  width: 148px;
+  height: 148px;
+  object-fit: cover;
+  border-radius: 50%;
+  padding: 1rem;
+}
+
+img.--primary {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.1);
+}
+
+img.--secondary {
+  border: 5px solid #32a041;
+}

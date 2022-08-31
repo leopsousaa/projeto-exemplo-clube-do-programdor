@@ -3,46 +3,75 @@ button {
   border-style: none;
   border-radius: 4px;
   cursor: pointer;
+  width: 100%;
 
   font-weight: bold;
   text-transform: uppercase;
   letter-spacing: 1px;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
-    'Lucida Sans', Arial, sans-serif;
 }
 
 button.--primary {
-  background: #fc5;
-  color: black;
+  background: #32a041;
+  color: #fff;
 }
 
 button.--primary:hover {
-  background: #fb5;
-  color: black;
+  background: #2b8837;
+  color: #fff;
 }
 
 button.--secondary {
-  background: #fff5e6;
-  color: #fc5;
+  background: #fff;
+  color: #32a041;
 }
 
 button.--secondary:hover {
-  background: #ffebcc;
-  color: #fb5;
+  background: #fff;
+  color: #2b8837;
 }
 
 button.--outlined {
   background: transparent;
-  border: 3px solid #fc5;
-  color: #fc5;
+  border: 3px solid #32a041;
+  color: #32a041;
 }
 
 button.--outlined:hover {
-  border: 3px solid #fb5;
-  color: #fb5;
+  border: 3px solid #2b8837;
+  color: #2b8837;
+}
+
+button.--danger {
+  background: #c8191e;
+  color: #fff;
+}
+
+button.--danger:hover {
+  background: #9f1418;
+  color: #fff;
 }
 
 button.--disabled {
   background: #ddd;
   color: #999;
+}
+
+button.--sm {
+  padding: 8px 12px;
+  font-size: small;
+}
+
+button.--md {
+  padding: 12px 16px;
+  font-size: medium;
+}
+
+button.--lg {
+  padding: 16px 20px;
+  font-size: large;
+}
+
+button.--xl {
+  padding: 20px 22px;
+  font-size: x-large;
 }
